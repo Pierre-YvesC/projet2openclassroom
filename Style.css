@@ -1,0 +1,178 @@
+/* global - police du document */
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* haut de page - espace de navigation*/
+.barreNavigation
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 100px;
+    justify-content: space-between;
+}
+/* haut de page - logo*/
+
+.logoReservia
+{
+    width: 10%;
+}
+/* haut droit - autres éléments de navigation*/
+.autreMenu
+{
+   display: flex;
+   flex-direction: row;
+   width: 500px;
+   justify-content: space-between;
+   list-style: none;
+   align-items: center;
+}
+
+.hebergement
+{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    color: blue;
+    font-size: 14px;
+    margin: 5px;
+    
+}
+
+.activites
+{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    color:black;
+    font-size: 14px;
+    margin: 5px;
+ }
+ 
+ .sinscrire
+ {
+     display: flex;
+     flex: 1;
+     justify-content: space-around;
+     color:blue;
+     font-weight: bold;
+     font-size: 14px;
+     margin: 5px;
+     
+  }
+ 
+
+/* centre-haut - Texte d'introduction*/
+.accroche
+{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.sousTitre
+{
+    font-size: 14Px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+/*centre-haut - filtres*/
+.filtres
+{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-inline: 20px;
+    justify-content: left;
+}
+
+.logoBouton
+{
+    width: 40px;
+    height: 40px;
+}
+
+.textFiltres
+{
+    font-weight: bold;
+}
+/*centre-haut - information*/
+.information 
+{
+    display: flex;
+    justify-content: left;
+}
+.imageInformation 
+{
+    width: 20px;
+    height: 20px;
+}
+
+/*centre - taille des images*/
+.hebergementMarseille
+{
+    width: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+}
+/*centre gauche - les hébergements proposés */
+.sectionsCentrePage
+{
+    display: flex;
+}
+
+.listeDesHebergements
+{
+   display: flex;
+   justify-content: space-around;  
+   flex-wrap: wrap;  
+   flex-grow: 3;
+}
+
+/*centre droit - les hébergements proposés - les plus populaires*/
+.lesPlusPopulaires
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.logoTrend
+{
+    width: 10px;
+    height: 10px;
+}
+.titreEtLogo
+{
+    display: flex;
+}
+/*pied de page - flexbox pour la gestion des 3 blocks */
+.piedPage
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: silver;
+    /*ne fonctionne pas, obligé de passer par une suppression des points individuels :*/
+    list-style: none;
+}
+
+.aPropos
+{
+    list-style: none;
+}
+
+.nosHebergements
+{
+    list-style: none;
+}
+.assistance
+{
+    list-style: none;
+}
+
+.teteChapitreBasPage
+{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
