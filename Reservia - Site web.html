@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html lang="fr">
+
+        <head>
+            <meta charset="utf-8">
+            <title>Reservia</title>
+            <link rel="stylesheet" href="Style.css"/>
+        </head>
+
+        <body>
+        <!-- 2. logo de l'entreprise (en haut à gauche) et navigation - flexbox image et navigation - flexbox navigation -->
+            <header class="barreNavigation">
+                    <img class="logoReservia" src="images/logo/Reservia@3x.png" alt="Logo Reservia" />
+                    <nav>
+                        <ul class="autreMenu">
+                            <li class="hebergement">Hébergement</li>
+                            <li class="activites">Activités</li>
+                            <li class="sinscrire">S'inscrire</li>
+                        </ul>
+                        </nav>
+            </header>
+
+        <!--  3. premier bloc de contenu : texte + filtres-->
+        <!-- text premier block -->
+            <section>
+                <div class="accroche">
+                    <p>Trouver un hébergement pour des vacances de rêve</p>
+                    <p class="sousTitre">En plein centre ville ou en pleine nature</p>
+                </div>
+                <div>
+                    <input type="search" id="maRecherche" name="q"
+                    placeholder="Marseille, France" spellcheck="true"> 
+                    <button>Rechercher</button> 
+                </div>
+        <!-- filtres premier bloc -->
+                <div class="filtres">
+                    <p class="textFiltres">Filtres</p>
+                    <button><img src="images\logo\Logo-Billet.png" alt="Un billet de banque" class="logoBouton"><span>Economique</span></button>
+                    <button><img src="images\logo\Logo-personne.png" alt="Une personne" class="logoBouton"><span>Familial</span></button>
+                    <button><img src="images\logo\Logo-coeur.png" alt="Un coeur" class="logoBouton"><span>Romantique</span></button>
+                    <button><img src="images\logo\Logo-dog.png" alt="Un chien" class="logoBouton"><span>Animaux autorisés</span></button>
+                </div> 
+        <!-- information --> 
+                <div class="information">
+                    <img src="images\logo\Logo-information.png" alt="Un point d'exclamation entouré" class="imageInformation">    
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+           
+            </section>
+
+        <!--  4. première section(haut-gauche) : les hébergements-->
+            <div class="sectionsCentrePage">
+                <div class="listDesHebergements">
+                            <p>Hébergement à Marseille</p>
+                            <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Logement 1" class="hebergementMarseille"/>
+                            <img src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Logement 2" class="hebergementMarseille"/>
+                            <img src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Logement 3" class="hebergementMarseille"/>
+                            <img src="images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Logement 4" class="hebergementMarseille"/>
+                            <img src="images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Logement 5" class="hebergementMarseille"/>
+                            <img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Logement 6" class="hebergementMarseille"/>
+                            <p>Afficher plus</p>
+                </div>
+                <div class="lesPlusPopulaires">
+                    <div class="titreEtLogo">
+                        <p>Les plus populaires</p>
+                        <img src="images\logo\Logo-trend.png" alt="Logo trends" class="logoTrend">
+                    </div>
+                    <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Logement 7" class="hebergementMarseille" />
+                    <img src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Logement 8" class="hebergementMarseille" />
+                    <img src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Logement 9" class="hebergementMarseille"/>
+                </div>
+            </div>
+        <!--  6. troisième section : les activités-->
+            </section>
+                <p>Activités à Marseille</p>
+
+                <img src="images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Activité 1" class="hebergementMarseille"/>
+                <img src="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Activité 2" class="hebergementMarseille"/>
+                <img src="images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Activité 3" class="hebergementMarseille"/>
+                <img src="images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Activité 4" class="hebergementMarseille"/>
+                <img src="images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Activité 5" class="hebergementMarseille"/>
+                <img src="images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Activité 6" class="hebergementMarseille"/>
+            </section>
+
+        <!--  7; Bas de page : le plan du site-->
+            <footer class="piedPage">
+                <ul class="aPropos">
+                    <li class="teteChapitreBasPage">A propos</li>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+                <ul class="nosHebergements">
+                    <li class="teteChapitreBasPage">Nos hébergements</li>
+                    <li>Charte qualité</li>
+                    <li>Soumettre votre hôtel</li>
+                </ul>
+                <ul class="assistance">
+                    <li class="teteChapitreBasPage">Assistance </li>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
+            </footer>
+
+
+        </body>
+    </html>
